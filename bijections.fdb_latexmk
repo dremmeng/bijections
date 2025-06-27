@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex bijections"] 1751047792.64929 "bijections.aux" "bijections.bbl" "bijections" 1751048133.91037 0
+["bibtex bijections"] 1751047792.64929 "bijections.aux" "bijections.bbl" "bijections" 1751056811.4167 0
   "./references.bib" 1751047438.45563 616 678fb6a42adcd314dbbf3f61ed4bb642 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "bijections.aux" 1751048133.65259 164 935de4da519d41bed5cf3c5e090c757f "pdflatex"
+  "bijections.aux" 1751056811.15179 164 935de4da519d41bed5cf3c5e090c757f "pdflatex"
   (generated)
   "bijections.bbl"
   "bijections.blg"
   (rewritten before read)
-["pdflatex"] 1751048133.35878 "/home/drew/Documents/Bijections/bijections.tex" "bijections.pdf" "bijections" 1751048133.91052 0
-  "/home/drew/Documents/Bijections/bijections.tex" 1751048133.1966 4309 574f75c24ea7152930db84aa241caafe ""
+["pdflatex"] 1751056810.85951 "/home/drew/Documents/Bijections/bijections.tex" "bijections.pdf" "bijections" 1751056811.41684 0
+  "/home/drew/Documents/Bijections/bijections.tex" 1751056810.6888 4895 6f66333ed64505fc0beee98f8a5db3c8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -93,9 +93,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743017093 5496777 dfac5a65ccd1b178961f799dec0d389d ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743017200 3345754 aaf435fcdfc94e675b7472152a660ba2 ""
   "/usr/local/texlive/2025/texmf.cnf" 1743017089.25792 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "bijections.aux" 1751048133.65259 164 935de4da519d41bed5cf3c5e090c757f "pdflatex"
+  "bijections.aux" 1751056811.15179 164 935de4da519d41bed5cf3c5e090c757f "pdflatex"
   "bijections.bbl" 1751047792.75599 482 db4985d5500f09eb6886b5b8ca7c5511 "bibtex bijections"
-  "bijections.tex" 1751048133.1966 4309 574f75c24ea7152930db84aa241caafe ""
+  "bijections.tex" 1751056810.6888 4895 6f66333ed64505fc0beee98f8a5db3c8 ""
   (generated)
   "bijections.aux"
   "bijections.log"
