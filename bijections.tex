@@ -1,0 +1,160 @@
+\documentclass[10pt, oneside]{article}
+\usepackage{amsmath, amsthm, amssymb, calrsfs, wasysym, verbatim, bbm, color, graphics, geometry, cite}
+\geometry{tmargin=.75in, bmargin=.75in, lmargin=.75in, rmargin = .75in}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Cdot}{\boldsymbol{\cdot}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newtheorem{thm}{Theorem}
+\newtheorem{defn}{Definition}
+\newtheorem{conv}{Convention}
+\newtheorem{rem}{Remark}
+\newtheorem{lem}{Lemma}
+\newtheorem{cor}{Corollary}
+\newtheorem{example}{Example}
+\newtheorem{exe}{Exercise}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{remark}{Remark}
+\title{Notes on the Structure $C^k$ Functions}
+\author{[Drew Remmenga]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\maketitle
+\begin{abstract}
+\end{abstract}
+\section*{$C^k$ Smooth Functions}
+  A function with $k$ continuous derivatives on a domain $X$ is denoted by $C^k(X)$ \cite{Lang1999}
+  There is an ordering:
+  \begin{align*}
+     C^0 \subset C^1 \subset \dots \subset C^{\omega} \subset C^{\infty}
+  \end{align*}
+  Each $C^k$ satisfies the axioms of a ring.
+  \begin{proof}
+     We take: $f, g, h \in C^k$.
+     Closure under addition: $(f+g) \in C^k$ because differentiation is linear:
+     \begin{align*}
+        \partial^\alpha (f+g) = \partial^\alpha f + \partial^\alpha g
+     \end{align*}
+     Closure under multiplication: $f \cdot g \in C^k$ by Leibniz rule we know:
+     \begin{align*}
+        \partial^\alpha = \sum_{\beta \leq \alpha} {\alpha \choose \beta} (\partial^{\beta} f)(\partial^{\alpha - \beta}g)
+     \end{align*}
+     which remains $C^k$ continuous.
+     Associativity under Addition and Multiplication:
+     \begin{align*}
+        (f+g)+h = f+(g+h), (f\cdot g)\cdot h = f\cdot (g \cdot h)
+     \end{align*}
+     Commutativity of Addition and Multiplication:
+     \begin{align*}
+        f+g=g+f, f\cdot g = g\cdot h
+     \end{align*}
+     Additive identity: given by the zero function $0(X) = 0$, $0 \in C^k$ and satisfies:
+     \begin{align*}
+        f+0=f, \forall f \in C^k
+     \end{align*}
+     Additive inverses: $\forall f \in C^k$ the function $-f \in C^k$ and satisfies:
+     \begin{align*}
+        f+(-f) = 0
+     \end{align*}
+     Multiplicative identity: the constant function $1(X) = 1 \in C^k$ and satisfies:
+     \begin{align*}
+        1 \cdot f = f, \forall f \in C^k
+     \end{align*}
+     Distributivity of Multiplication over Addition:
+     \begin{align*}
+        f \cdot (g + h) = f \cdot g + f \cdot h
+     \end{align*}
+  \end{proof}
+  There is an additional structure of $C^k$ functions. Namely we can compose them with each other. Denote $\circ$ composition of functions $f(g(X))$ for $f,g \in C^k$ when the domain $X=\R^d$
+  This is a semigroup under this operation.
+  \begin{proof}
+     Take $f,g \in C^k$ as before. The space is closed under the operation: follows from the chain rule and the fact that derivatives of $f$ and $g$ up to $k$ are continuous.
+     Associativity: inherited from function composition.
+     \begin{align*}
+        (f \circ g) \circ h = f \circ (g \circ h)
+     \end{align*}
+     An identity element exists $\text{id}(x) = x \in C^k$ and satisfies $f \circ \text{id} = \text{id} \circ f = f$.
+  \end{proof}
+\section*{Invertible $C^k$ Functions}
+  If we restrict $C^k$ to the set of invertible functions we can satisfy all the group axioms under $\circ$.
+  Take $\text{Diff}^k$ as the set of invertible $C^k$ functions. Then there is an ordering:
+  \begin{align*}
+     \begin{array}{cccccc}
+        C^0 & \supset & C^1 & \supset & \cdots & \supset C^\infty \\
+        \cup & & \cup & & & \cup \\
+        \text{Diff}^0 & \supset & \text{Diff}^1 & \supset & \cdots & \supset \text{Diff}^\infty
+\end{array}
+  \end{align*}
+  Then the only missing property to satisfy the group axioms was the existence of inverses and by construction now for a function $f$ we have the necessary inverse $f^{-1}$ such that:
+  \begin{align*}
+     f \circ f^{-1} = \text{id}
+  \end{align*}
+  Indeed $\text{Diff}^k$ is an infinite dimensional Lie Algebra and it is perfect.\cite{Banyaga1997}
+\bibliographystyle{plain}  % or another style like alpha, unsrt, etc.
+\bibliography{references.bib}  % the name of the .bib file
+\end{document}
