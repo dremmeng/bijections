@@ -1,15 +1,17 @@
 # Fdb version 4
-["bibtex bijections"] 1751047792.64929 "bijections.aux" "bijections.bbl" "bijections" 1751056875.0932 0
-  "./references.bib" 1751047438.45563 616 678fb6a42adcd314dbbf3f61ed4bb642 ""
+["bibtex bijections"] 1751077070.8507 "bijections.aux" "bijections.bbl" "bijections" 1751078407.4728 0
+  "./references.bib" 1751077011.63849 1166 ff14762bbb38a68bf584ded192014dc9 ""
   "/usr/local/texlive/2025/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "bijections.aux" 1751056874.84236 164 935de4da519d41bed5cf3c5e090c757f "pdflatex"
+  "bijections.aux" 1751078407.20669 283 93639aef21abe14e507f431130ca0230 "pdflatex"
   (generated)
   "bijections.bbl"
   "bijections.blg"
   (rewritten before read)
-["pdflatex"] 1751056874.55349 "/home/drew/Documents/Bijections/bijections.tex" "bijections.pdf" "bijections" 1751056875.09333 0
-  "/home/drew/Documents/Bijections/bijections.tex" 1751056874.38837 4892 677ab8241272e01b81c316fe3438b571 ""
+["pdflatex"] 1751078406.91165 "/home/drew/Documents/Bijections/bijections.tex" "bijections.pdf" "bijections" 1751078407.47294 0
+  "/home/drew/Documents/Bijections/bijections.tex" 1751078406.7267 5579 11390f9d7b99e9bfdbd7350fb0e8c25c ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -46,15 +48,20 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1248133631 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1248133631 32716 08e384dc442464e7285e891af9f45947 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1248133631 34694 ad62b13721ee8eda1dcc8993c8bd7041 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1215737283 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty" 1734129479 7984 7dbb9280f03c0a315425f1b4f35d43ee ""
   "/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty" 1572645307 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -93,9 +100,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1743017093 5496777 dfac5a65ccd1b178961f799dec0d389d ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1743017200 3345754 aaf435fcdfc94e675b7472152a660ba2 ""
   "/usr/local/texlive/2025/texmf.cnf" 1743017089.25792 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "bijections.aux" 1751056874.84236 164 935de4da519d41bed5cf3c5e090c757f "pdflatex"
-  "bijections.bbl" 1751047792.75599 482 db4985d5500f09eb6886b5b8ca7c5511 "bibtex bijections"
-  "bijections.tex" 1751056874.38837 4892 677ab8241272e01b81c316fe3438b571 ""
+  "bijections.aux" 1751078407.20669 283 93639aef21abe14e507f431130ca0230 "pdflatex"
+  "bijections.bbl" 1751077070.95417 846 311e850378fdb80e97d494a83a649dc3 "bibtex bijections"
+  "bijections.tex" 1751078406.7267 5579 11390f9d7b99e9bfdbd7350fb0e8c25c ""
   (generated)
   "bijections.aux"
   "bijections.log"

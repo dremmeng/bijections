@@ -91,7 +91,7 @@
   A function with $k$ continuous derivatives on a domain $X$ is denoted by $C^k(X)$ \cite{Lang1999}
   There is an ordering:
   \begin{align*}
-     C^0 \subset C^1 \subset \dots \subset C^{\omega} \subset C^{\infty}
+     C^0 \supset C^1 \supset \dots \supset C^{\omega} \supset C^{\infty}
   \end{align*}
   Each $C^k$ satisfies the axioms of a ring.
   \begin{proof}
@@ -117,11 +117,11 @@
      \begin{align*}
         f+0=f, \forall f \in C^k
      \end{align*}
-     Additive inverses: $\forall f \in C^k$ the function $-f \in C^k$ and satisfies:
+     Additive inverses: $\forall f \in C^k$ the function $\exists -f \in C^k$ and satisfies:
      \begin{align*}
         f+(-f) = 0
      \end{align*}
-     Multiplicative identity: the constant function $1(X) = 1 \in C^k$ and satisfies:
+     Multiplicative identity: the constant function $\exists 1(X) = 1 \in C^k$ and satisfies:
      \begin{align*}
         1 \cdot f = f, \forall f \in C^k
      \end{align*}
@@ -130,15 +130,14 @@
         f \cdot (g + h) = f \cdot g + f \cdot h
      \end{align*}
   \end{proof}
-  There is an additional structure of $C^k$ functions. Namely we can compose them with each other. Denote $\circ$ composition of functions $f(g(X))$ for $f,g \in C^k$ when the domain $X=\R^d$
-  This is a semigroup under this operation.
+  There is an additional structure of $C^k$ functions. Namely we can compose them with each other. Denote $\circ$ composition of functions $f(g(X))$ for $f,g \in C^k$ when the domain $X=\R^d$ then this is a semigroup under this operation.
   \begin{proof}
      Take $f,g \in C^k$ as before. The space is closed under the operation: follows from the chain rule and the fact that derivatives of $f$ and $g$ up to $k$ are continuous.
      Associativity: inherited from function composition.
      \begin{align*}
         (f \circ g) \circ h = f \circ (g \circ h)
      \end{align*}
-     An identity element exists $\text{id}(x) = x \in C^k$ and satisfies $f \circ \text{id} = \text{id} \circ f = f$.
+     An identity element $\exists \text{id}(x) = x \in C^k$ and satisfies $f \circ \text{id} = \text{id} \circ f = f$.
   \end{proof}
 \section*{Invertible $C^k$ Functions}
   If we restrict $C^k$ to the set of invertible functions we can satisfy all the group axioms under $\circ$.
@@ -154,9 +153,13 @@
   \begin{align*}
      f \circ f^{-1} = \text{id}
   \end{align*}
-  Indeed $\text{Diff}^k$ is an infinite dimensional Lie Algebra and it is perfect.\cite{Banyaga1997}. We can imagine a forgetful functor inspired by representation theory and the $\text{Res}^G_H$ or the restriction from a group $G$ to a subgroup $H$.
-  Define the functor $F: C^k \to \text{Diff}^k$. We can imagine a left adjoint functor to rebuild $C^k$ from $\text{Diff}^k$ through the $+$ and $\cdot$ operations on elements $f_1 \dots f_n \in \text{Diff}^k$. Take the functor $G: \text{Diff}^k \to C^k$.
-  Indeed it may be possible to build the functors $F$ and $G$ out of elements $f_1 \dots f_n$ in the respective algebras using the ring and semi-group operations; at least within $\R^d$.
+  Indeed $\text{Diff}^k$ is an infinite dimensional Lie Algebra and it is perfect.\cite{Banyaga1997}
+\section*{Res and Ind}
+  We can imagine a forgetful functor inspired by representation theory and the $\text{Res}^G_H(V)$ or the restriction from a group $G$ to a subgroup $H$ over a representation $V$.
+  Define the functor $\text{Res}: C^k \to \text{Diff}^k$. We can imagine a left adjoint functor to rebuild $C^k$ from $\text{Diff}^k$ through the operations $(+,\cdot,\circ)$ on elements $f_1, \cdots, f_n \in \text{Diff}^k$. Specify the functor $\text{Ind}: \text{Diff}^k \to C^k$.
+  Take an arbitrary element $h \in C^k$ we would like to construct $h$ with a looser countable Schauder basis \cite{Heil2018} using the ring and semi-group operations of0 elements in $\text{Diff}^k$. Let $A := \text{span}_{+,\cdot,\circ} \{f_1, \cdots, f_n | f_i \in \text{Diff}^k\}$\footnote{Often it is necessary in a Schauder basis our functions given by $f_i$ be orthonormal by an inner-product $<f_i,f_j> = \delta_{i,j}$ and we don't specify that same condition here.}. Then by Stone-Weierstrass $A$ is dense in $C^k$ at least for $X=\R^d$ \cite{Dieudonne1969}.
+  So we can generate $h$ with the topological closure of $A$ given by $\overline{A}$.
+  However this may not be true for an arbitrary smooth manifold $X$ (harry ball theorem?) \cite{Dieudonne1969}.
 \bibliographystyle{plain}  % or another style like alpha, unsrt, etc.
 \bibliography{references.bib}  % the name of the .bib file
 \end{document}

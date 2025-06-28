@@ -6,6 +6,17 @@ Augustin Banyaga.
 \newblock Springer, Dordrecht, 1997.
 \newblock First systematic treatment of the algebraic structure of diffeomorphism groups.
 
+\bibitem{Dieudonne1969}
+Jean Dieudonné.
+\newblock {\em Foundations of Modern Analysis}, volume~1 of {\em Treatise on Analysis}.
+\newblock Academic Press, 1969.
+\newblock Covers both Stone-Weierstrass (§7.3) and Hairy Ball Theorem via Poincaré-Hopf.
+
+\bibitem{Heil2018}
+Christopher Heil.
+\newblock {\em Basis Theory in Banach Spaces}.
+\newblock Springer, 2018.
+
 \bibitem{Lang1999}
 Serge Lang.
 \newblock {\em Fundamentals of Differential Geometry}.
